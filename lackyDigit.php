@@ -7,8 +7,10 @@
 </head>
 <body>
     <form method="POST">
-        Начальный номер: <input type="text" name="start" required pattern="\d{6}"><br>
-        Конечный номер: <input type="text" name="end" required pattern="\d{6}"><br>
+        <a>Начальный номер:</a> 
+        <input type="text" name="start" required pattern="\d{6}"><br>
+        <a>Конечный номер:</a>
+        <input type="text" name="end" required pattern="\d{6}"><br>
         <input type="submit" value="Найти">
     </form>
 
