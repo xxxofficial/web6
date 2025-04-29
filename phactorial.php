@@ -7,7 +7,7 @@
 </head>
 <body>
     <form method="POST">
-        Введите число:
+        <a>Введите число:</a>
         <input type="number" name="number" min="0" required>
         <input type="submit" value="Вычислить">
     </form>
